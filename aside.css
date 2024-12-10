@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(new.jpg);
+    color: darkblue;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    background-color: rgba(45, 97, 218, 0.592) ;
+    text-align: center;
+    word-spacing: 20px;
+    padding: 5px;
+}
+nav a{
+     color: darkblue ;
+}
+a :hover{
+    text-decoration: underline;
+    color: white;
+}
+section{
+    margin: 30px; 
+    display: flex; 
+    gap: 30px;
+} 
+article{
+    box-shadow: 5px 5px 10px rgba(45, 97, 218, 0.592); 
+    border: 1px solid rgba(45, 97, 218, 0.592);
+    padding-left: 20px;
+    order: 1;
+    background-color: rgba(134, 159, 217, 0.227);
+    border-radius: 20px;
+}
+article{
+    flex: 3;
+}
+aside{
+    flex: 1;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(45, 97, 218, 0.592); 
+    background-color: rgba(134, 159, 217, 0.227);
+    border: 1px solid rgba(45, 97, 218, 0.592);
+    border-radius: 20px;
+    order: 2;
+}
+form{
+    margin: 20px;
+}
+input,select,textarea{
+    width: 1000px;
+    padding:10px ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input[type="radio"]{
+    width: auto;
+}
+label{
+    display: block;
+}
+textarea{
+    resize: none;
+}
+button{
+    display: block;
+    background-color:  rgba(45, 97, 218, 0.592);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 900px;
+    width: 100px;
+}
+footer{
+    background-color: rgba(45, 97, 218, 0.592);
+    color: darkblue;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+}

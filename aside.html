@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aside.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Curriculum Demo</h1>
+        <p>Learning HTML, steps bt steps</p>
+    </header>
+    <nav>
+        <a href="#text-formatting">Text</a>
+        <a href="#multimedia">Media</a>
+        <a href="#tables">Tables</a>
+        <a href="#lists">Lists</a>
+        <a href="#forms">Forms</a>
+    </nav>
+    <section>
+        <aside>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="">Text Formatting</a></li>
+                <li><a href="">Multimedia</a></li>
+                <li><a href="">Tables</a></li>
+                <li><a href="">;Lists</a></li>
+                <li><a href="">Forms</a></li>
+            </ul>
+        </aside>
+        <article>
+        <h2 id="text-formatting">Text Formatting</h2>
+        <p><b>Bold text</b>,<i>italic text,</i><u>underline text</u></p>
+        <p>Here's a horizontal line:</p>
+        <hr>
+        <h2 id="multimedia">Multimedia</h2>
+        <p>Embedded audio and video:</p>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+        <video controls width="100%" poster="./images (5).jpg">
+            <source src="6394054-uhd_4096_2048_24fps.mp4" type="video/mp4">
+        </video>
+        <hr>
+        <h2 id="tables">Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>City</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Sarah</td>
+                    <td>30</td>
+                    <td>London</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h2 id="lists">Lists</h2>
+        <p>Here's an ordered and nested unordered list:</p>
+        <ol type="1">
+              <li>HTML Basics</li>
+              <li>CSS Basics</li>
+              <li>JavaScript Basics</li>
+        </ol>
+        <ul>
+            <li>Frontend</li>
+            <ul type="circle">
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <li>Backend</li>
+            <ul type="circle">
+                <li>Node js</li>
+                <li>PHP</li>
+            </ul>
+        </ul>
+        <hr>
+        <h2 id="forms">Forms</h2>
+        <form action="">
+        <label for="">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name">
+        <label for="">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email">
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="Male">
+                <input type="radio" name="gender" value="Male">Male
+            </label>
+            <label for="Female">
+                <input type="radio" name="gender" value="Female">Female
+            </label>
+           <label for=""> Message:</label>
+            <textarea name="message"></textarea>
+        </fieldset>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="United States">United States</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="America">America</option>
+            <option value="Switzerland">Switzerland</option>
+        </select>
+        <button type="submit">Submit</button>
+        </form>
+
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 HTML Curriculum Demo. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
